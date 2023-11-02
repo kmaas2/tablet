@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact - Lakeside Property Masters</title>
+</head>
+<body>
+    <header>
+        <img src="/images/logo-no-background.png" alt="Lakeside Property Masters">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="services.html" class="button">All Services</a></li>
+                <li><a href="about.html" class="button">Why Lakeside</a></li>
+                <li><a href="locations.html" class="button">Locations</a></li>
+                <li><a href="form.html" class="button highlight-button">Get Your Free Estimate</a></li>            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        <h1>We're Excited to Take on Your New Project!</h1>
+        <form action="https://formsubmit.co/lakesidepropertymasters@gmail.com" method="POST" id="survey-form">
+            <div class="form-group">
+                <label for="services">What services are you interested in:</label>
+                <div class="service-options">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="windowCleaning" name="services" value="Window Cleaning">
+                        <label for="windowCleaning">Window Cleaning</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="holidayLighting" name="services" value="Holiday Lighting">
+                        <label for="holidayLighting">Holiday Lighting</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="powerWashing" name="services" value="Power Washing">
+                        <label for="powerWashing">Power Washing</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="stainingServices" name="services" value="Staining Services">
+                        <label for="stainingServices">Staining Services</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="roofCleaning" name="services" value="Roof Cleaning">
+                        <label for="roofCleaning">Roof Cleaning</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="roofRepair" name="services" value="Roof Repair">
+                        <label for="roofRepair">Roof Repair</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="gutterCleaning" name="services" value="Gutter Cleaning">
+                        <label for="gutterCleaning">Gutter Cleaning</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="drivewaySealing" name="services" value="Driveway Sealing">
+                        <label for="drivewaySealing">Driveway Sealing</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label for="buildingType">Type of building:</label>
+                <select id="buildingType" name="buildingType">
+                    <option value="Residential">Residential</option>
+                    <option value="Commercial">Commercial</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Service Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+
+            <div class="form-group">
+                <label for="timing">How soon are you looking for service:</label>
+                <select id="timing" name="timing">
+                    <option value="thisWeek">This week</option>
+                    <option value="thisMonth">This month</option>
+                    <option value="nextMonth">Next month</option>
+                    <option value="notSure">Not sure</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="projectDetails">Any details about your project:</label>
+                <textarea id="projectDetails" name="projectDetails" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
